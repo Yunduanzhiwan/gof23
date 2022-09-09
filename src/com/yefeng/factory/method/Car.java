@@ -1,4 +1,4 @@
-package com.yefeng.factory.simple;
+package com.yefeng.factory.method;
 
 
 

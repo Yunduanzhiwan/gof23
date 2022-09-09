@@ -1,15 +1,12 @@
-package com.yefeng.factory.simple;
+package com.yefeng.factory.method;
 
 //奔驰
 public class BenChi implements Car {
-
-
     @Override
     public String brandName() {
         System.out.println("我是奔驰车");
         return "奔驰";
     }
-
 
     @Override
     public boolean start() {
@@ -17,9 +14,10 @@ public class BenChi implements Car {
         return true;
     }
 
-
     @Override
     public String[] kills() {
-        return new String[]{"开机,开空调", "电动门", "星空顶", "百公里0.1秒"};
+        return new String[]{"开机,开空调","电动门","星空顶","白公里0.1秒"};
     }
+
+
 }
