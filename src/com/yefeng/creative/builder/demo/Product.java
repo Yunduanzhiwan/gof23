@@ -1,4 +1,4 @@
-package com.yefeng.builder.demo;
+package com.yefeng.creative.builder.demo;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
